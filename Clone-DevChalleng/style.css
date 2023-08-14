@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+    font-family: Roboto, arial, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0e0f10;
+}
+
+.header {
+    background-color: #0e0f10;
+    padding: 8dvh;
+}
+
+
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:hover {
+    color: rgb(126, 141, 156);
+
+}
+
+.ul_config {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoText {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.LogoTextColor {
+    color: #f4cf0a;
+}
+
+.btnEntrar {
+    background-color: #434343;
+    font-size: 20px;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+
+}
+
+.btnEntrar:hover {
+    color: #888282;
+}
+
+.teste h1 {
+    color: white;
+    overflow: hidden;
+    border-right: 0.15em solid #5c0d78;
+    white-space: nowrap;
+    letter-spacing: 0.02em;
+    animation: 3.5s steps(30) 0s 1 normal none running typing, 0.5s step-end 0s infinite normal none running blink-caret;
+}
+
+.slogan {
+    color: white;
+    font-size: 60px;
+}
+
+.seguraslogan {
+    display: flex;
+    flex-flow: column wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-top: 160px;
+    margin-bottom: 160px;
+
+}
+
+
+@keyframes blink-caret {
+
+    0%,
+    100% {
+        border-color: transparent;
+    }
+
+    50%{
+        border-color: #5c0d78;
+    }
+}
+
+
+@keyframes typing {
+    0% {
+        width: 0px;
+    }
+    100%{
+        width: 100%;
+    }
+}
